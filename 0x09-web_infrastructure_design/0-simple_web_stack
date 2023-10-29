@@ -25,6 +25,8 @@ by providing human-readable addresses and
 serving as the foundation for establishing online identities and services.
 
 What type of DNS record www is in www.foobar.com?
+
+
 In the domain name "www.foobar.com," the "www" is a commonly used subdomain and 
 not a specific DNS record type.
 
@@ -43,8 +45,56 @@ This is a common practice, but it's important to note that there is no specific 
 The DNS records associated with the "www" subdomain would typically be either an A record (to map the subdomain to an IP address) 
 or a CNAME record (to alias the subdomain to another domain or hostname).
 
+
 What is the role of the web server?
+
 
 The web server plays a central role in the process of delivering web content to users over the internet. 
 When you access a website, your web browser sends a request to the web server hosting the site, 
 and the web server responds by delivering the requested web page.
+
+
+what is the role of the application server?
+
+An application server is a software framework that 
+provides an environment for running applications, 
+handling business logic, and facilitating communication between various software components. 
+Here are the key roles of an application server:
+
+•Business Logic Execution
+
+•Middleware Services
+
+•Communication Management
+State Management
+
+•Scalability and Load Balancing
+
+•Integration
+
+•Caching
+
+Role for Database
+
+A database is a structured collection of data organized in a way that a computer program 
+can quickly select and manipulate specific pieces of data. 
+Databases play a crucial role in data management for applications. 
+Here are their key roles:
+
+•Data Storage
+
+•Data Manipulation
+
+•Data retrieval
+
+•Data Integrity
+
+•Data Security
+
+•Concurrency Control
+
+•Backup and Recovery
+
+What is the server using to communicate with the computer of the user requesting the website
+
+
