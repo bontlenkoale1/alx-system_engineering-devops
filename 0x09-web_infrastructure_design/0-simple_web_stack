@@ -1,0 +1,7 @@
+# Web Infrastructure Design
+
+# What is a server?
+
+A server is a specialized computer or software system designed to provide services, resources, or data to other computers, known as clients, over a network. Servers can serve various purposes, including hosting websites, storing files, managing emails, providing access to databases, and more. They are typically more powerful and have more storage capacity than regular desktop computers.
+
+Servers operate within a client-server architecture, where clients request services or resources, and servers fulfill these requests. When you access a website, for example, your computer (client) sends a request to the web server hosting the site, and the server responds by sending the requested web page back to your computer, which your web browser then displays.
