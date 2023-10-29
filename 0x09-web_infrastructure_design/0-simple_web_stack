@@ -1,11 +1,50 @@
-**Web Infrastructure Design**
-**What is a server?**
+Web Infrastructure Design
+
+What is a server?
 
 A server is a specialized computer or 
 software system designed to provide services, 
 resources, or data to other computers, 
-known as clients, over a network.
-Servers can serve various purposes,
+known as clients, over a network.Servers can serve various purposes,
 including hosting websites, storing files, managing emails,
 providing access to databases, and more.
 They are typically more powerful and have more storage capacity than regular desktop computers.
+
+
+What is the role of the domain name ?
+
+A domain name serves as a user-friendly, human-readable label used to identify and 
+locate resources on the internet. Instead of users having to remember 
+a complex series of numbers (IP addresses) 
+to access websites, email servers, or 
+other online services, they can use domain names,
+which are easy-to-recall words or phrases,so
+domain names play a crucial role in making 
+the internet more accessible and user-friendly 
+by providing human-readable addresses and 
+serving as the foundation for establishing online identities and services.
+
+What type of DNS record www is in www.foobar.com?
+In the domain name "www.foobar.com," the "www" is a commonly used subdomain and 
+not a specific DNS record type.
+
+A DNS record is a type of information stored in the Domain Name System (DNS) of the internet,
+which includes various record types such as A (Address) records, CNAME (Canonical Name) records, 
+MX (Mail Exchange) records,
+and many others.
+In the case of "www.foobar.com":
+
+- "foobar.com" is the domain name.
+- "www" is a subdomain of "foobar.com."
+
+Typically, web servers are configured to respond to requests
+for the "www" subdomain, directing them to the appropriate web content. 
+This is a common practice, but it's important to note that there is no specific DNS record type called "www." 
+The DNS records associated with the "www" subdomain would typically be either an A record (to map the subdomain to an IP address) 
+or a CNAME record (to alias the subdomain to another domain or hostname).
+
+What is the role of the web server?
+
+The web server plays a central role in the process of delivering web content to users over the internet. 
+When you access a website, your web browser sends a request to the web server hosting the site, 
+and the web server responds by delivering the requested web page.
