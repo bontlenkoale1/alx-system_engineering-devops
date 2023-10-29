@@ -1,5 +1,10 @@
 Web Infrastructure Design
 
+
+
+
+
+
 What is a server?
 
 A server is a specialized computer or 
@@ -95,6 +100,54 @@ Here are their key roles:
 
 •Backup and Recovery
 
-What is the server using to communicate with the computer of the user requesting the website
+What is the server using to communicate with the computer of the user requesting the website?
+
+When a user requests a website, the communication between the user's computer and 
+the web server occurs over the internet using the Hypertext Transfer Protocol (HTTP) or 
+its secure version, HTTPS (HTTP Secure). 
+HTTP and HTTPS are application layer protocols that define the format of messages and 
+how web browsers and servers should respond to various commands.
+
+
+Explain what the issues are with this infrastructure: 
+
+1. SPOF (Single Point of Failure):
+   
+   **Issue:** A Single Point of Failure (SPOF) means that there's a component in the system 
+( such as a server, network device, or service ) that, if it fails, will cause the entire system to stop working. 
+For instance, if there's only one web server handling all the traffic, and it fails, the website will be inaccessible until the server is restored.
+
+   **Impact:** High risk of downtime and loss of service availability. If the SPOF fails, the entire system goes offline, 
+disrupting user experience and potentially causing financial losses for businesses.
+
+   **Solution:** To address SPOF, redundancy and failover mechanisms can be implemented. This might involve having multiple web servers with load balancing, 
+redundant network connections, and failover systems. If one component fails, traffic can be rerouted to the redundant components, minimizing downtime.
+
+
+2. **Downtime During Maintenance:**
+
+   **Issue:** Performing maintenance tasks, such as deploying new code or updates, 
+often requires restarting services or servers. During this time, the website or service might be temporarily unavailable to users.
+
+   **Impact:** Planned downtime during maintenance windows can inconvenience users, affect user experience, and disrupt service availability.
+
+   **Solution:** Implementing techniques like rolling deployments can help minimize downtime. In a rolling deployment, 
+updates are applied to a subset of servers at a time, ensuring that the service remains operational for users even while updates are being deployed.
+
+3. **Limited Scalability:**
+
+   **Issue:** If the infrastructure is not designed to handle a large volume of incoming traffic, the system can become overwhelmed during traffic spikes. 
+This issue is particularly common in situations where the infrastructure does not scale horizontally (adding more servers to distribute the load) or vertically (increasing resources 
+like CPU, RAM, etc., on existing servers).
+
+   **Impact:** Inability to handle high traffic loads can lead to slow website performance, errors, or complete unavailability during peak periods, 
+such as during a marketing campaign or a sudden surge in user activity.
+
+   **Solution:** Implementing load balancing and auto-scaling mechanisms can help address scalability issues. Load balancers distribute incoming traffic across multiple servers, 
+and auto-scaling allows the infrastructure to automatically add or remove resources based on demand, ensuring the system can handle varying levels of traffic efficiently.
+
+Addressing these issues requires careful planning, 
+architecture design, and implementation of best practices to create a robust, 
+scalable, and highly available infrastructure.
 
 
