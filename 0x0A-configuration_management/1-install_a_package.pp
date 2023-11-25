@@ -1,3 +1,4 @@
+#!/usr/bin/pup
 # this pp file installs a package
 
 package::pip { 'flask' :
