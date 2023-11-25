@@ -1,5 +1,5 @@
 #!/usr/bin/pup
-# this pp file installs a package
+# using  puppet to install flask from pip3
 
 package::pip { 'flask' :
   ensure       => '2.1.0' ,
