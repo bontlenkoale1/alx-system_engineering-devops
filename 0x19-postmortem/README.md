@@ -12,21 +12,21 @@ Duration: A harrowing 120 minutes, from 10:00 AM to 12:00 PM SAST (SOUTH AFRICAN
 
 # Timeline
 
-# 10:00 AM: Our monitoring system blew up with alerts, warning us of a massive influx of traffic to our website. 
+•10:00 AM: Our monitoring system blew up with alerts, warning us of a massive influx of traffic to our website. 
 
-# 10:05 AM: One of our alert engineers noticed that the website was responding slower than usual on a lazy Sunday morning, and reported it to the team. 
+•10:05 AM: One of our alert engineers noticed that the website was responding slower than usual on a lazy Sunday morning, and reported it to the team. 
 
-# 10:10 AM: We initially suspected that the issue was related to our load balancers and began investigating that area of the system. 
+•10:10 AM: We initially suspected that the issue was related to our load balancers and began investigating that area of the system. 
 
-# 10:30 AM: We ruled out the load balancers as the cause and began investigating the web application servers. 
+•10:30 AM: We ruled out the load balancers as the cause and began investigating the web application servers. 
 
-# 11:00 AM: We discovered that the web application servers were experiencing a bottleneck due to the increased traffic. 
+•11:00 AM: We discovered that the web application servers were experiencing a bottleneck due to the increased traffic. 
 
-# 11:15 AM: We attempted to scale up the number of web application servers, but the issue persisted. 
+•11:15 AM: We attempted to scale up the number of web application servers, but the issue persisted. 
 
-# 11:30 AM: We called in the big guns - our DevOps team - to help us. 
+•11:30 AM: We called in the big guns - our DevOps team - to help us. 
 
-# 12:00 PM: The issue was finally resolved when the DevOps team discovered and fixed a misconfiguration in the server settings that had caused the bottleneck. 
+•12:00 PM: The issue was finally resolved when the DevOps team discovered and fixed a misconfiguration in the server settings that had caused the bottleneck. 
 
 # Root Cause and Resolution
 
