@@ -6,7 +6,7 @@
 # Issue Summary
 Duration: A harrowing 120 minutes, from 10:00 AM to 12:00 PM SAST (SOUTH AFRICAN STANDARD TIME).
 
-# Impact: Users of our beloved dating website experienced frustratingly slow page load times and some clients were unable to complete to sign up during the outage. Approximately 20% of users were affected - a tragedy by any measure.
+# Impact: Users of our beloved e-commerce website experienced frustratingly slow page load times and some clients were unable to purchase their items during the outage. Approximately 20% of users were affected - a tragedy by any measure.
 
 # Root Cause: Alas, the cause of the calamity was simply an increase in traffic that overwhelmed our web application servers, causing slow response times and some requests to time out. 
 
